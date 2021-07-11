@@ -1,3 +1,7 @@
+<?php
+include "cek.php";
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -19,8 +23,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ms-auto">
         <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="logout.php">LOGOUT</a>
       </div>
     </div>
   </div>
