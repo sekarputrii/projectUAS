@@ -7,9 +7,9 @@ $Nama = $_POST['Nama'];
 $NoKTP = $_POST['NoKTP'];
 $NoTelpon = $_POST['NoTelpon'];
 $TahunMasuk = $_POST['TahunMasuk'];
-$JumlahMasaKerja = $_POST['JumlahMasaKerja'];
+$JumlahMasaKerja = date("Y") - $TahunMasuk;
 
-mysqli_query($koneksi, "update karyawan set Nama = '$Nama', NoKTP = '$NoKTP', NoTelpon = '$NoTelpon', TahunMasuk = '$TahunMasuk', JumlahMasaKerja = '$JumlahMasaKerja' where id = '$id'");
+mysqli_query($koneksi, "update karyawan set Nama = '$Nama', NoTelpon = '$NoTelpon', TahunMasuk = '$TahunMasuk', JumlahMasaKerja = '$JumlahMasaKerja', NoKTP = '$NoKTP' where id = '$id'");
 
 header("location:index.php");
 ?>

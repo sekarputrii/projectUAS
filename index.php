@@ -31,7 +31,7 @@ include "cek.php";
 
   <div class="container data-karyawan mt-5">
     <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tambahData">
+  <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#tambahData">
     Tambah Data
   </button>
 

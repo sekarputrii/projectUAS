@@ -20,7 +20,7 @@ while ($data = mysqli_fetch_assoc($karyawan)){
             <p>NoKTP : <?php echo $data['NoKTP']?></p>
             <p>NoTelpon : <?php echo $data['NoTelpon']?></p>
             <p>TahunMasuk : <?php echo $data['TahunMasuk']?></p>
-            <p>JumlahMasaKerja : <?php echo $data['JumlahMasaKerja']?></p>
+            <p>JumlahMasaKerja : <?php echo $data['JumlahMasaKerja']?> Tahun</p>
         </div>
     <?php
 }

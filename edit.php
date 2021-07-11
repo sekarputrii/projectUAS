@@ -17,9 +17,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ms-auto">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+        <a class="nav-link" href="logout.php">LOGOUT</a>
       </div>
     </div>
   </div>
@@ -41,7 +40,7 @@
             <div class="card-body fw-bold">
                 <form  method="post" action="update.php">
                     <div class="mb-3">
-                        <input type="hidden" class="form-control" name="NoKTP" value="<?php echo $data['NoKTP']; ?>">
+                        <input type="hidden" class="form-control" name="id" value="<?php echo $data['id']; ?>">
                     </div> 
                     <div class="mb-3">
                         <label for="Nama" class="form-label">Nama</label>

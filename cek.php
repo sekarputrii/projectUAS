@@ -11,9 +11,10 @@ header("location:login.php");
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Halaman Admin</title>
+	<title>Data Karyawan</title>
 </head>
 <body>
 	<h1>Yay! Selamat datang <?php echo $_SESSION['nama']; ?></h1>
+    <h5>username & password : sekar</h5>
 </body>
 </html>

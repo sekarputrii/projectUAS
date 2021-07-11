@@ -18,9 +18,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ms-auto">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+        <a class="nav-link" href="index.php">LOGOUT</a>
       </div>
     </div>
   </div>
@@ -43,8 +42,8 @@
                     <p>NoKTP : <?php echo $data['NoKTP'] ?></p>
                     <p>NoTelpon : <?php echo $data['NoTelpon'] ?></p>
                     <p>TahunMasuk : <?php echo $data['TahunMasuk'] ?></p>
-                    <p>JumlahMasaKerja : <?php echo $data['JumlahMasaKerja'] ?></p>
-                    <a href="print.php?id" class="btn btn-primary btn-sm text-white">CETAK</a>
+                    <p>JumlahMasaKerja : <?php echo $data['JumlahMasaKerja'] ?> Tahun</p>
+                    <a href="print.php?id=<?php echo $data['id']; ?>" class="btn btn-primary btn-sm text-white">Cetak</a>
                 </div>
             </div>
         </div>
